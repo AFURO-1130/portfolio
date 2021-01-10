@@ -5,15 +5,15 @@ li{
     color: white;
     font-family: 'Yellowtail', cursive;
 }
-.navbar-toggler{
-    border-color: #fff000;
-}
-.navbar-toggler-icon{
-    
-}
+
 .carousel-caption d-none d-md-block h1,p{
     font-family: 'Yellowtail', cursive;
 }
 .carousel-inner h1{
     font-family: 'Yellowtail', cursive;
 }
+.text-center{
+    font-family: 'Yellowtail', cursive;
+}
+
+
