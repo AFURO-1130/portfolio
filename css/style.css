@@ -27,13 +27,27 @@ li{
     margin: 0 auto;
     width: 100px;
 }
+
 .contact-wr{
     font-family: 'Yellowtail', cursive;
     border-bottom: solid 5px #7094F1;
     margin: 0 auto;
     width: 85px;
 }
+form{
+    border:solid 1px black;
+}
 
+.btn{
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+footer{
+    height: 100%;
+    bottom: 0;
+}
 
 
 

@@ -11,7 +11,12 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-  
+  <script type="text/javascript">
+    var submitted = false;  
+  </script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+    onload="if(submitted) {window.location='thanks.html';}"></iframe>
+
 </head>
 
 <body>
@@ -117,7 +122,7 @@
               <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
                 dy=".3em"></text></img>
               <div class="card-body">
-                <p class="card-text">JavaScript</p>
+                <p class="card-text" style="color: black">JavaScript</p>
               </div>
             </div>
 
@@ -158,7 +163,7 @@
               <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
                 dy=".3em"></text></img>
               <div class="card-body">
-                <p class="card-text">html&css</p>
+                <p class="card-text" style="color: black;">html&css</p>
               </div>
             </div>
           </button>
@@ -200,7 +205,7 @@
               <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
                 dy=".3em"></text></img>
               <div class="card-body">
-                <p class="card-text">Linebot</p>
+                <p class="card-text" style="color: black;">Linebot</p>
               </div>
             </div>
           </button>
@@ -230,114 +235,66 @@
       </div>
     </div>
 
+
     <!--自己紹介-->
     <div id="introduce">
       <div class="col-12 col-md-6 mx-auto">
         <h2 class="text-center my-5 intro-wr">introduce</h2>
       </div>
       <h2 class="d-flex flex-wrap-reverse justify-content-center">
-        <div class="col-md-6 col-12 p-0 align-self-center h3 p-4 txt">
-          っっっっっっっっh
+        <div class="col-md-6 col-12 p-0 align-self-center h3 p-4">
+          <div class="introduce">
+            金城翔太郎
+          </div>
         </div>
         <div class="col-md-6 col-12 p-0 align-self-center">
-          <img class="img-fluid rounded-circle" src="img/IMG_4137.jpeg" alt="">
+          <img class="img-fluid rounded-circle my-5" src="img/IMG_4137.jpeg" alt="">
         </div>
       </h2>
     </div>
 
+
     <!--コンタクトフォーム-->
     <div id="contact">
-      <div class="container mx-auto">
+      <div class="container mx-auto　mt-5 ">
         <div class="col-12 col-md-1 mx-auto">
-          <h2 class="text-center my-5 contact-wr">contact</h2>
+          <h2 class="text-center my-5 pt-5 contact-wr">contact</h2>
         </div>
-
-
-
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSesKbedqsH5gLrjDlHMwDD1_1fWegB0LFqhFrIDuCiLA_KGcg/formResponse?edit2=2_ABaOnucwndAxCf6jTWxH-bTkA-Mqb6Z4aKQJq7j4L146vxlvFSLGBFuUunaMJXFy0Z8oijgyv7SJi6Lt" target="_self" method="POST" id="mG61Hd" href="thanks.html">
-          <ul>
-            <li>
-              お名前
-              <input name="entry.2005620554" type="text" required id="textfield" class="g_form" placeholder="お名前">
-            </li>
-            
-            <li>メールアドレス
-              <input name="entry.1045781291" type="email"　 class="g_form" id="textfield3"placeholder="メールアドレス" required>
-            </li>
-          <li>その他お問い合わせ等<textarea name="entry.839337160" required class="g_form_text" id="entry.952897594"
-     placeholder="その他お問い合わせ"></textarea>
-          </li>
-          <li><input type="submit" class="btbt">送信</li>
-          </ul>
-          
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSesKbedqsH5gLrjDlHMwDD1_1fWegB0LFqhFrIDuCiLA_KGcg/formResponse?edit2=2_ABaOnucwndAxCf6jTWxH-bTkA-Mqb6Z4aKQJq7j4L146vxlvFSLGBFuUunaMJXFy0Z8oijgyv7SJi6Lt"
+        target="hidden_iframe" method="POST" id="mG61Hd" onsubmit="submitted=true">
+            <div class="form-group col-md-8 mx-auto my-5">
+              <label for="inputAddress">名前</label>
+              <input name="entry.2005620554"　type="text" class="form-control" id="inputAddress" placeholder="" required>
+            </div>
+            <div class="form-group col-md-8 mx-auto my-5">
+              <label for="inputEmail4">メールアドレス</label>
+              <input name="entry.1045781291" type="email" class="form-control" id="inputEmail4" placeholder="" required>
+            </div>
+          <div class="col-md-8 mx-auto my-5">
+            <label for="validationTextarea">お問い合わせ</label>
+            <textarea name="entry.839337160" class="form-control " id="validationTextarea" placeholder=""
+              required></textarea>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1 col-12 mb-5 py-2　text-center mx-auto">
+              <div class="d-flex justify-content-center">
+                <input type="submit" class="btn" style="background-color: #7094F1"></input>
+              </div>
+            </div>
+          </div>
+        </div>
         
         </form>
-      </form>
-      
-        
-
-        
-        
-
-        
-        
-        
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
+  </div>
+
+  <!--フッター-->
+  <footer class="text-center bg-dark text-white mt-5 col-12 col-md-12">
+    <!--pタグ禁止-->
+    <div class="py-5">&copy</div>
+</footer>
 
 
 
@@ -355,9 +312,8 @@
 
 
 
-    
-    
-    
+
+
 
 
 
@@ -373,7 +329,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </body>
 
 </html>
