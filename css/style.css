@@ -12,7 +12,7 @@ li{
 .carousel-inner h1{
     font-family: 'Yellowtail', cursive;
 }
-.card-body p{
+.card-body{
     font-family: 'Yellowtail', cursive;
 }
 .works-wr{
@@ -48,6 +48,8 @@ footer{
     height: 100%;
     bottom: 0;
 }
-
+.introduce p{
+    font-size: 10px;;
+}
 
 
