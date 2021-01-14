@@ -6,7 +6,7 @@ li{
     font-family: 'Yellowtail', cursive;
 }
 
-.carousel-caption d-none d-md-block h1,p{
+.carousel-caption d-none d-md-block h1,h6{
     font-family: 'Yellowtail', cursive;
 }
 .carousel-inner h1{
@@ -49,7 +49,19 @@ footer{
     bottom: 0;
 }
 .introduce p{
-    font-size: 10px;;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Noto Serif JP', serif;
 }
+.introduce h5{
+    font-family: 'Noto Serif JP', serif;
+}
+.introduce, text-center{
+    font-family: 'Noto Serif JP', serif;
+}
+label{
+    font-family: 'Noto Serif JP', serif;
+}
+
 
 
