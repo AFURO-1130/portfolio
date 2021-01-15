@@ -71,5 +71,14 @@ label{
 #exampleModalCenter3{
     border-radius: 20px;
 }
+.modal-body{
+    font-family: 'Noto Serif JP', serif;
+}
+.modal-footer .btn{
+    font-family: 'Noto Serif JP', serif;
+}
+.modal-title{
+    font-family: 'Noto Serif JP', serif;
+}
 
 
