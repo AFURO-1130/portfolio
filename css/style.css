@@ -48,19 +48,23 @@ footer{
     height: 100%;
     bottom: 0;
 }
-.introduce p{
-    font-size: 15px;
+.intro-title h2{
+    font-size: 40px;
     line-height: 1.5;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Potta One', cursive;
+
 }
 .introduce h5{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 .introduce, text-center{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 label{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 .link:hover{
     color: white;
@@ -72,13 +76,16 @@ label{
     border-radius: 20px;
 }
 .modal-body{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 .modal-footer .btn{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 .modal-title{
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 15px;
 }
 
 
