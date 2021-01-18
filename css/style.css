@@ -55,11 +55,12 @@ footer{
 
 }
 .introduce h5{
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 15px;
+    font-family: 'Potta One', cursive;
+    font-size: 30px;
 }
 .introduce, text-center{
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 1.7;
     font-size: 15px;
 }
 label{
@@ -76,16 +77,16 @@ label{
     border-radius: 20px;
 }
 .modal-body{
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     font-size: 15px;
 }
 .modal-footer .btn{
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     font-size: 15px;
 }
 .modal-title{
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
 }
 
 
